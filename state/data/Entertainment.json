@@ -1,0 +1,48 @@
+[
+    {
+        "id": "giai-tri",
+        "title": "Giải trí",
+        "data": [
+            {
+                "source": "79DijItQXMM",
+                "title": "Bài hát You're Welcome - Phim Moana",
+                "description": "You're Welcome bởi Dwayne Johnson trong phim hoạt hình Moana",
+                "time": "2:48",
+                "level": 1,
+                "sub": "79DijItQXMM.xml"
+            },
+            {
+                "source": "JdYiPSl0xpo",
+                "title": "Vì sao các rạp chiếu phim vẫn tồn tại tốt?",
+                "description": "Dường như Covid-19 sẽ chấm dứt sự tồn tại của các rạp chiếu phim, nhưng thực tế lại không như vậy. Vì sao?",
+                "time": "7:03",
+                "level": 1,
+                "sub": "JdYiPSl0xpo.xml"
+            },
+            {
+                "source": "gQlMMD8auMs",
+                "title": "MV Pink Venom - BLACKPINK",
+                "description": "MV Pink Venom - BLACKPINK",
+                "time": "3:13",
+                "level": 2,
+                "sub": "gQlMMD8auMs.xml"
+            },
+            {
+                "source": "4BRRtTVdkJk",
+                "title": "Nhóm nhạc Hàn Quốc BTS kiếm tiền và tiêu tiền như thế nào?",
+                "description": "BTS là nhóm K-pop được trả lương cao nhất thế giới, theo Forbes. Hãy xem họ đã kiếm được nhiều tiền như thế nào",
+                "time": "6:04",
+                "level": 2,
+                "sub": "4BRRtTVdkJk.xml"
+            },
+            {
+                "source": "NsFN2dPVPh0",
+                "title": "Top 10 giả thuyết về Harry Potter",
+                "description": "Hãy cùng xem fan hâm mộ thế giới phù thủy của Harry Potter đã có những giả thuyết đầy thú vị nào",
+                "time": "8:13",
+                "level": 3,
+                "sub": "NsFN2dPVPh0.xml"
+            }
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "video-noi-bat",
+        "title": "Video Nổi bật",
+        "data": [
+            {
+                "source": "4BRRtTVdkJk",
+                "title": "Nhóm nhạc Hàn Quốc BTS kiếm tiền và tiêu tiền như thế nào?",
+                "description": "BTS là nhóm K-pop được trả lương cao nhất thế giới, theo Forbes. Hãy xem họ đã kiếm được nhiều tiền như thế nào",
+                "time": "6:04",
+                "level": 2,
+                "sub": "4BRRtTVdkJk.xml"
+            },
+            {
+                "source": "hUuk2krQLsg",
+                "title": "Mẫu câu giao tiếp tiếng Anh thực tế trong đời sống",
+                "description": "Cùng luyện tập các cách bắt chuyện và duy trì cuộc trò chuyện",
+                "time": "11:16",
+                "level": 2,
+                "sub": "hUuk2krQLsg.xml"
+            },
+            {
+                "source": "Y6e_m9iq-4Q",
+                "title": "[TED-Ed] Những thứ lơ lửng trong mắt bạn là gì?",
+                "description": "Khám phá khoa học về hiện tượng “vật nổi”, những đốm màu nhỏ bơi qua tầm nhìn của bạn",
+                "time": "4:04",
+                "level": 2,
+                "sub": "Y6e_m9iq-4Q.xml"
+            }
+        ]
+    }
+]

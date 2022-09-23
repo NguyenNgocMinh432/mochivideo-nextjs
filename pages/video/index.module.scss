@@ -1,0 +1,235 @@
+.mochi__detail__page {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	padding: 3% 0% 3% 0%;
+	&__top {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+.mochi__youtube__subs__main {
+	width: 29%;
+}
+.mochi__youtube {
+	padding-top: 2%;
+	display: flex;
+	justify-content: space-between;
+	&__left {
+		width: 69%;
+		margin-right: 20px;
+	}
+	&__video {
+		width: 100%;
+	}
+	&__subs {
+		width: 100%;
+		background-color: #2a2a2c;
+		border: 1px solid #e0e0e0;
+		border-radius: 10px;
+		overflow-y: scroll;
+		cursor: pointer;
+		-webkit-transition: all 200ms ease-out;
+		-moz-transition: all 200ms ease-out;
+		-o-transition: all 200ms ease-out;
+		-ms-transition: all 200ms ease-out;
+		transition: all 200ms ease-out;
+		margin-bottom: 8px;
+		padding: 5px 0;
+	}
+	&__title {
+		padding-top: 3rem;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 30px;
+		color: #fff;
+	}
+	&__time {
+		padding: 9px 7px;
+		display: flex;
+		font-size: 15px;
+	}
+	&__left__top {
+		width: 29%;
+	}
+}
+.subs__time {
+	color: #828282;
+	font-size: 15px;
+	background: #f8f8f8;
+	border-radius: 100px;
+	font-weight: 700;
+	padding: 7px 15px;
+}
+.subs__time:hover {
+	background: #000000;
+	color: #fff;
+}
+.subs__icon {
+	img {
+		width: 25px;
+		margin-bottom: 2px;
+	}
+}
+.subs__text {
+	display: flex;
+	font-size: 30px;
+	font-weight: 500;
+	color: #000000;
+	padding-left: 2%;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.subs__text__videos:hover {
+	text-decoration: underline;
+	background: rgba(255, 203, 8, 0.25);
+}
+.subs__text__videos {
+	padding: 3px 0px;
+	color: #fff;
+}
+.youtube__video {
+	height: 100%;
+}
+#subs__id::-webkit-scrollbar {
+	width: 6px;
+	background-color: transparent;
+}
+#subs__id::-webkit-scrollbar-thumb {
+	background-color: #e0e0e0;
+	border-radius: 5px;
+}
+#subs__id::-webkit-scrollbar-thumb {
+	border-right: none;
+	border-left: none;
+}
+#subs__id::-webkit-scrollbar-track-piece:end {
+	background: transparent;
+	margin-bottom: 10px;
+}
+#subs__id::-webkit-scrollbar-track-piece:start {
+	background: transparent;
+	margin-top: 10px;
+}
+#subs__id::-webkit-scrollbar-track {
+}
+.active__subs {
+	display: none !important;
+}
+.sub_translate_img {
+	object-fit: contain;
+}
+.controlvideo-web,
+.subs__time,
+.sub_translate {
+	display: block;
+}
+.controlvideo-mobile,
+.subs__icon {
+	display: none;
+}
+.sub_translate__content {
+	color: #56ccf2;
+	font-weight: 500;
+	font-size: 17px;
+	padding: 10px;
+	transition: all 200ms ease-out;
+}
+@media only screen and (max-width: 1024px) {
+	.mochi__youtube {
+		&__subs {
+			height: 380px;
+		}
+		&__video {
+			height: 320px;
+		}
+		&__title {
+			padding: 0rem;
+		}
+	}
+	.subs__text {
+		font-size: 14px;
+	}
+	.subs__time {
+		font-size: 10px;
+	}
+	.youtube__video > iframe {
+		// height: 280px;
+	}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1550px) {
+	.subs__text {
+		font-size: 13px !important;
+	}
+	.subs__time {
+		font-size: 13px !important;
+	}
+	.subs__mochi__videos:hover {
+		background: #828282;
+	}
+}
+
+.subs__mochi__videos {
+	display: flex;
+	padding: 8px 10px;
+	align-items: center;
+	border-bottom: 1px solid #828282;
+}
+.subs__active {
+}
+.subs__active__2 {
+	-webkit-transition: background-color 200ms linear;
+	-moz-transition: background-color 200ms linear;
+	-o-transition: background-color 200ms linear;
+	-ms-transition: background-color 200ms linear;
+	transition: background-color 200ms linear;
+	background: #828282;
+	padding: 10px 10px;
+}
+.subs__disabled {
+	display: none !important;
+}
+@media only screen and (max-width: 767px) {
+	.mochi__youtube {
+		flex-direction: column;
+		&__left {
+			width: 100%;
+		}
+		&__subs {
+			margin-top: 2%;
+			width: 100%;
+			border-radius: 0px 0px 10px 10px;
+			background-color: #202124;
+			border: none;
+		}
+		&__title {
+			display: none;
+		}
+		&__left__top {
+			width: 100%;
+		}
+	}
+	.education__mochi {
+		padding: 2% 1%;
+	}
+	.youtube__video > iframe {
+		//height: auto !important;
+	}
+	.mochi__youtube__video {
+		height: auto;
+	}
+	.subs__mochi__videos {
+		border-top: 1px solid #8c8c8c;
+	}
+	.controlvideo-mobile,
+	.subs__icon {
+		display: block;
+	}
+	.subs__time,
+	.sub_translate,
+	.controlvideo-web {
+		display: none;
+	}
+}

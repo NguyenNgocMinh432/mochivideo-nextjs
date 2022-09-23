@@ -1,0 +1,48 @@
+[
+    {
+        "id": "red-ed-va-ted-talk",
+        "title": "TED-ed và TED talk",
+        "data": [
+            {
+                "source": "QKae1k1BDdA",
+                "title": "Lược sử về pho mát",
+                "description": "Trước cả khi tồn tại đế chế và hoàng gia, đồ gốm và chữ viết, công cụ kim loại và vũ khí - chúng ta đã có pho mát.",
+                "time": "5:33",
+                "level": 1,
+                "sub": "QKae1k1BDdA.xml"
+            },
+            {
+                "source": "ZQTQSbjecLg",
+                "title": "Cách sáng tạo một thế giới viễn tưởng",
+                "description": "Tại sao bộ ba tác phẩm Chúa tể những chiếc nhẫn của J.R.R.Tolkien lại hấp dẫn đến vậy?",
+                "time": "5:24",
+                "level": 1,
+                "sub": "ZQTQSbjecLg.xml"
+            },
+            {
+                "source": "8jPQjjsBbIc",
+                "title": "Làm thế nào để bình tĩnh khi căng thẳng?",
+                "description": "Bạn sẽ ở trạng thái không ổn nếu gặp căng thẳng.",
+                "time": "12:20",
+                "level": 2,
+                "sub": "8jPQjjsBbIc.xml"
+            },
+            {
+                "source": "arJLy3hX1E8",
+                "title": "Góc độ tâm lý học của sự \"ái kỷ\"",
+                "description": "Góc độ tâm lý học của sự \"ái kỷ\"",
+                "time": "5:09",
+                "level": 2,
+                "sub": "arJLy3hX1E8.xml"
+            },
+            {
+                "source": "qYvXk_bqlBk",
+                "title": "Bạn thực sự là ai? Câu đố về tính cách cá nhân",
+                "description": "Điều gì tạo nên bạn? Các nhà tâm lý học thích nói về những đặc điểm xác định làm nên con người của chúng ta.",
+                "time": "15:16",
+                "level": 3,
+                "sub": "qYvXk_bqlBk.xml"
+            }
+        ]
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "id": "tin-tuc",
+        "title": "Tin tức",
+        "data": [
+            {
+                "source": "h_vNqgZYxNg",
+                "title": "'Sát thủ' Muối? - BBC News",
+                "description": "Bạn có biết muối ăn làm món ăn thơm ngon hơn, nhưng muối cũng có thể giết người?",
+                "time": "6:18",
+                "level": 1,
+                "sub": "h_vNqgZYxNg.xml"
+            },
+            {
+                "source": "7MqRwfrg23g",
+                "title": "Tìm hiểu cơ cấu nội các Mỹ",
+                "description": "CNN giới thiệu sơ lược về chức năng của nội các Mỹ",
+                "time": "1:33",
+                "level": 2,
+                "sub": "7MqRwfrg23g.xml"
+            },
+            {
+                "source": "UnV97eYP6YU",
+                "title": "Biên giới giữa Ý và Thụy Sĩ dần biến mất",
+                "description": "Những quốc gia xinh đẹp ở châu Âu và biên giới đất liền ngày càng mờ dần đi",
+                "time": "4:55",
+                "level": 2,
+                "sub": "UnV97eYP6YU.xml"
+            },
+            {
+                "source": "XR5FOS0d8E0",
+                "title": "Biến đổi gen có thể làm giảm giá thành mỹ phẩm như thế nào?",
+                "description": "Ngành kinh doanh mỹ phẩm đã khai thác tài nguyên thiên nhiên trong nhiều thế kỷ, công nghệ biến đổi gen liệu có thể thay đổi điều gì?",
+                "time": "13:37",
+                "level": 3,
+                "sub": "XR5FOS0d8E0.xml"
+            }
+        ]
+    }
+]

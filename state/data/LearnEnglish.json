@@ -1,0 +1,80 @@
+[
+    {
+        "id": "hoc-tieng-anh",
+        "title": "Học tiếng Anh",
+        "data": [
+            {
+                "source": "SluNUqeuA9g",
+                "title": "Học tiếng Anh qua truyện kể - Cô nàng lọ lem Cinderella",
+                "description": "Học tiếng Anh qua câu chuyện cổ tích nàng lọ lem",
+                "time": "37:07",
+                "level": 1,
+                "sub": "SluNUqeuA9g.xml"
+            },
+            {
+                "source": "tpTcNQkR7ZY",
+                "title": "Học tiếng Anh qua hội thoại cơ bản - Chủ đề trường học",
+                "description": "Khi bạn học ngoại ngữ, tiếng Anh chẳng hạn, trước khi nói bạn có từng cố gắng dịch từ tiếng Việt rồi mới sang tiếng Anh không?",
+                "time": "5:52",
+                "level": 1,
+                "sub": "tpTcNQkR7ZY.xml"
+            },
+            {
+                "source": "gXwrvYJggOQ",
+                "title": "Hội thoại tiếng Anh cơ bản - Nói chuyện với người nước ngoài",
+                "description": "Học tiếng Anh bằng việc nói chuyện với người bản xứ là một cách tuyệt vời để thực hành tiếng Anh của bạn",
+                "time": "7:19",
+                "level": 1,
+                "sub": "gXwrvYJggOQ.xml"
+            },
+            {
+                "source": "lQDUEQd9jIs",
+                "title": "Học tiếng Anh với Frozen",
+                "description": "Học tiếng Anh với Frozen",
+                "time": "27:24",
+                "level": 2,
+                "sub": "lQDUEQd9jIs.xml"
+            },
+            {
+                "source": "r7VKVXbaj_Y",
+                "title": "50 cụm động từ phrasal verbs thông dụng",
+                "description": "50 cụm động từ phrasal verbs thông dụng",
+                "time": "33:35",
+                "level": 2,
+                "sub": "r7VKVXbaj_Y.xml"
+            },
+            {
+                "source": "hUuk2krQLsg",
+                "title": "Mẫu câu giao tiếp tiếng Anh thực tế trong đời sống",
+                "description": "Cùng luyện tập các cách bắt chuyện và duy trì cuộc trò chuyện",
+                "time": "11:16",
+                "level": 2,
+                "sub": "hUuk2krQLsg.xml"
+            },
+            {
+                "source": "NOdIdz1Sugw",
+                "title": "10 câu tiếng Anh thực sự để sử dụng mỗi ngày và cải thiện tiếng Anh nói của bạn",
+                "description": "10 câu tiếng Anh thực sự để sử dụng mỗi ngày và cải thiện tiếng Anh nói của bạn",
+                "time": "22:53",
+                "level": 3,
+                "sub": "NOdIdz1Sugw.xml"
+            },
+            {
+                "source": "zOHi37jWcro",
+                "title": "25 cụm từ tiếng Anh giao tiếp nâng cao",
+                "description": "Tìm hiểu cách sử dụng 25 cụm từ vựng tiếng Anh nâng cao cho cuộc trò chuyện hàng ngày",
+                "time": "38:41",
+                "level": 3,
+                "sub": "zOHi37jWcro.xml"
+            },
+            {
+                "source": "y8jJKW9DU3c",
+                "title": "Làm thế nào để nói một ngoại ngữ mà không cần dịch trong đầu?",
+                "description": "Khi bạn học ngoại ngữ, tiếng Anh chẳng hạn, trước khi nói bạn có từng cố gắng dịch từ tiếng Việt rồi mới sang tiếng Anh không?",
+                "time": "15:28",
+                "level": 3,
+                "sub": "y8jJKW9DU3c.xml"
+            }
+        ]
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "id": "xa-hoi-va-cuoc-song",
+        "title": "Xã hội và cuộc sống",
+        "data": [
+            {
+                "source": "OhVCTkpVX2Y",
+                "title": "Lịch sử ngày Cá tháng Tư",
+                "description": "Điều gì sẽ xảy ra nếu lịch sử của Ngày Cá tháng Tư thực sự chỉ là một trò đùa dai?",
+                "time": "2:20",
+                "level": 1,
+                "sub": "OhVCTkpVX2Y.xml"
+            },
+            {
+                "source": "QdKgmEJ0xxo",
+                "title": "Vì sao màu xanh dành cho con trai và màu hồng dành cho con gái?",
+                "description": "Tại sao bạn cứ cho rằng một cặp vợ chồng đang có một bé trai nếu họ dùng toàn màu xanh, và bé gái nếu toàn màu hồng?",
+                "time": "5:28",
+                "level": 2,
+                "sub": "QdKgmEJ0xxo.xml"
+            },
+            {
+                "source": "F5-qkgfBeuU",
+                "title": "Sống trong vùng an toàn sẽ giết chết bạn",
+                "description": "Sống trong vùng an toàn sẽ giết chết bạn",
+                "time": "13:52",
+                "level": 3,
+                "sub": "F5-qkgfBeuU.xml"
+            },
+            {
+                "source": "KuB0gNJ7LBY",
+                "title": "Đừng vứt vỏ trứng đi, đây là lý do!",
+                "description": "Trứng là một phần quan trọng trong chế độ ăn kiêng của nhiều người.",
+                "time": "4:20",
+                "level": 3,
+                "sub": "KuB0gNJ7LBY.xml"
+            },
+            {
+                "source": "yc8SlAiyneg",
+                "title": "Tàu cao tốc Nhật đã thay đổi việc di chuyển như thế nào?",
+                "description": "Ngày nay tàu cao tốc có thể so sánh với di chuyển bằng đường hàng không về giá cả và thời gian tiêu tốn cho các hành trình không quá dài.",
+                "time": "3:55",
+                "level": 3,
+                "sub": "yc8SlAiyneg.xml"
+            }
+        ]
+    }
+]

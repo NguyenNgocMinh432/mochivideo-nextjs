@@ -1,0 +1,40 @@
+[
+    {
+        "id": "kinh-te",
+        "title": "Kinh tế",
+        "data": [
+            {
+                "source": "ptD0T-ZcF2M",
+                "title": "Steve Jobs và bài phát biểu truyền cảm hứng - Câu chuyện khởi nghiệp",
+                "description": "Những chia sẻ về khởi nghiệp trong bài phát biểu của Steve Jobs tại buổi lễ tốt nghiệp Đại học Stanford",
+                "time": "2:51",
+                "level": 1,
+                "sub": "ptD0T-ZcF2M.xml"
+            },
+            {
+                "source": "1-OJX1rwnl8",
+                "title": "Cơ bản về kinh tế - Cách Starbucks hoạt động như một ngân hàng",
+                "description": "Starbucks, một công ty bán cà phê lại hoạt động như một ngân hàng? Hãy cùng tìm hiểu",
+                "time": "7:21",
+                "level": 2,
+                "sub": "1-OJX1rwnl8.xml"
+            },
+            {
+                "source": "zXOtKx9rF-Q",
+                "title": "Theo đuổi hạnh phúc trong công việc",
+                "description": "Cân bằng bản thân trong công việc để tìm kiếm hạnh phúc",
+                "time": "2:28",
+                "level": 2,
+                "sub": "zXOtKx9rF-Q.xml"
+            },
+            {
+                "source": "VqZsg2ZjppU",
+                "title": "Facebook và Instagram gặp khó khăn khi cải tiến để cạnh tranh",
+                "description": "Facebook đã cải tạo các nền tảng của mình để cạnh tranh hơn với các đối thủ như Tiktok như thế nào",
+                "time": "7:59",
+                "level": 3,
+                "sub": "VqZsg2ZjppU.xml"
+            }
+        ]
+    }
+]

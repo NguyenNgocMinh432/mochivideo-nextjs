@@ -1,0 +1,319 @@
+.register,
+.login {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99999999999;
+	background: rgba($color: #000000, $alpha: 0.6);
+	cursor: auto;
+}
+.login_container,
+.register_container {
+	width: 50%;
+	height: 100%;
+	margin: 0 auto;
+	background: #f8f8f8;
+	// padding: 25px 0 0 0;
+	position: relative;
+}
+.login_container > span:nth-child(1) {
+	top: 10px;
+    left: 10px;
+}
+.register_container > span:nth-child(1) {
+	top: 10px;
+    left: 10px;
+}
+.login_close_img {
+	width: 30px;
+	position: absolute;
+	object-fit: cover;
+}
+.error_text {
+	color: red;
+	margin: 0;
+}
+/* LOGIN */
+.login_title,
+.register_title {
+	text-align: center;
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 23px;
+	letter-spacing: 0.0128571em;
+	color: #000000;
+	margin: 0;
+}
+
+.login_noEmail,
+.register_noEmail {
+	width: 50%;
+	text-align: center;
+	color: #f8f8f8;
+	margin: 35px auto;
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	&__google {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 25px;
+		height: 48px;
+		background: #d21919;
+		box-shadow: 2px 5px #ddd4d4;
+		cursor: pointer;
+		img {
+			width: 30px;
+			margin-right: 10px;
+		}
+	}
+	&__face {
+		background: #007bfe;
+		margin: 15px 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 25px;
+		height: 48px;
+		box-shadow: 2px 5px #ece5e5;
+		cursor: pointer;
+		img {
+			width: 15px;
+			margin-right: 10px;
+		}
+	}
+	&__apple {
+		background: #000000;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 25px;
+		height: 48px;
+		box-shadow: 2px 5px #ddd4d4;
+		cursor: pointer;
+		img {
+			width: 25px;
+			margin-right: 10px;
+		}
+	}
+}
+.login_OR {
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+.login_Email__email {
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	&__input,
+	&__pass {
+		margin: 10px 0;
+		width: 100%;
+		height: 55px;
+		outline: none;
+		border: 2px solid #ececec;
+		padding: 20px;
+		border-radius: 13px;
+	}
+	&__showPass {
+		position: absolute;
+		top: 32%;
+		right: 5%;
+		color: #23ac38;
+		cursor: pointer;
+	}
+}
+.login_button {
+	width: 40%;
+	margin: 30px auto;
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 700;
+	button {
+		border: none;
+		width: 100%;
+		padding: 13px;
+		border-radius: 25.3223px;
+		font-size: 20px;
+	}
+	&__no {
+		color: #828282;
+		background: #e0e0e0;
+	}
+	&__ok {
+		background-image: linear-gradient(270deg, #24ad37 0%, #57cb04 100%);
+		color: #fff;
+		box-shadow: 0 5px 0 #23ac38;
+	}
+}
+.login_forgot_pass {
+	text-align: center;
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 500;
+	color: #1793f6;
+	cursor: pointer;
+}
+.login_register {
+	text-align: center;
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 500;
+	margin-top: 30px;
+	&__open {
+		margin-left: 5px;
+		color: #007bfe;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+}
+/*REGISTER*/
+.register_container {
+	&__img {
+		margin: 0 auto;
+		display: block;
+	}
+	&__create {
+		width: 50%;
+		margin: 10px auto;
+		font-family: 'Quicksand';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		button {
+			width: 100%;
+			height: 48px;
+			border: none;
+			background: #fff;
+			border-radius: 25px;
+			box-shadow: 2px 5px #ece5e5;
+		}
+	}
+	&__login {
+		text-align: center;
+		margin: 20px 0 0 0;
+		font-family: 'Quicksand';
+		font-style: normal;
+		font-weight: 700;
+		&__login {
+			margin-left: 5px;
+			color: #007bfe;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+	}
+}
+/*CREATE */
+.register_container {
+	.create_title {
+		margin: 40px 0 30px 0;
+		text-align: center;
+		font-family: 'Quicksand';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 21px;
+		color: #000000;
+	}
+	&__name,
+	&__email,
+	&__password {
+		width: 50%;
+		margin: 15px auto;
+		position: relative;
+		input {
+			width: 100%;
+			padding: 13px;
+			border: none;
+			border-radius: 10px;
+			font-size: 18px;
+		}
+	}
+	&__button {
+		width: 50%;
+		margin: 20px auto;
+		text-align: center;
+		button {
+			width: 70%;
+			padding: 12px;
+			border: none;
+			border-radius: 30px;
+			font-family: 'Quicksand';
+			font-style: normal;
+			font-weight: 700;
+		}
+	}
+	&__footer {
+		text-align: center;
+		font-family: 'Quicksand';
+		font-style: normal;
+		font-weight: 700;
+		&__login {
+			margin-left: 5px;
+			color: #42a5f5;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	.login_container,
+	.register_container {
+		width: 100%;
+		padding: 60px 0;
+		&__name,
+		&__email,
+		&__password {
+			width: 86%;
+		}
+		&__button {
+			width: 80%;
+			font-size: 18px;
+		}
+	}
+	.login_noEmail,
+	.register_noEmail {
+		width: 88%;
+		margin: 20px auto;
+		&__google,
+		&__face,
+		&__apple {
+			height: 57px;
+			width: 96%;
+		}
+	}
+	.login_Email__email {
+		width: 82%;
+		&__input,
+		&__pass {
+			height: 60px;
+			font-size: 17px;
+			width: 95%;
+		}
+	}
+	.login_Email__email__showPass {
+		display: none;
+	}
+	.login_button {
+		width: 65%;
+	}
+	.login_forgot_pass {
+		font-size: 17px;
+	}
+	.login_register {
+		display: none;
+	}
+	.register_container__create {
+		width: 70%;
+	}
+}

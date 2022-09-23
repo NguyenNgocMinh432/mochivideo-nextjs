@@ -1,0 +1,329 @@
+.user_info {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: rgba($color: #000000, $alpha: 0.6);
+    cursor: auto;
+}
+.user__container {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #f8f8f8;
+    margin: 0px auto;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+.user__title {
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    background: #ffcb08;
+    border-radius: 0px 0px 20px 20px;
+}
+.user__title > span:nth-child(1) {
+    position: absolute !important;
+    left: 10px;
+}
+.user__close { 
+    position: absolute;
+    width: 30px;
+    cursor: pointer;
+    left: 0px;
+ }
+.user__information {
+    display: flex;
+    align-items: center;
+    width: 67%;
+    justify-content: space-between;
+    margin: 10% auto;
+}
+.user__avt {
+    img {
+        width: 168px;
+        object-fit: cover;
+    }
+}
+.user__account {
+    padding-left: 50px;
+    &__email {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        color: black;
+        img {
+            width: 20px;
+            margin-right: 11px;
+            object-fit: cover;
+        }
+        &:nth-child(2) {
+            padding-right: 11px;
+        }
+    }
+    &__date {
+        padding-top: 17px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        color: black;
+        img {
+            width: 17px;
+            margin-right: 11px;
+            object-fit: cover;
+        }
+    }
+    &__name {
+        p {
+            font-family: 'Quicksand';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+            color: black;
+        }
+    }
+}
+.user__open__website {
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+}
+.open__web__title {
+    p {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+    }
+}
+.open__web__btn {
+    width: 246px;
+    padding: 13px 0px;
+    margin: 20px auto 0px auto;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffff;
+    background: linear-gradient(270deg, #24ad37 0%, #57cb04 100%);
+    box-shadow: rgb(32, 155, 50) 0px 4px 0px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.user__logout {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+
+    img {
+        position: absolute;
+        width: 154px;
+        object-fit: cover;
+        cursor: pointer;
+        top: -78px;
+    }
+}
+.btn__logout {
+    text-align: center;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #bdbdbd;
+    padding-top: 0;
+    width: fit-content;
+    margin: 0 auto;
+    cursor: pointer;
+    &:hover {
+        font-weight: 700;
+    }
+}
+
+.user__avt {
+    position: relative;
+}
+
+.img_outer {
+    position: relative;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.img_outer_premium {
+    background: linear-gradient(83.47deg, #ffcb08 9.02%, #ff9600 90.81%);
+}
+
+.img_outer_free {
+    background: linear-gradient(83.47deg, #58cc02 9.02%, #23ac38 90.81%);
+}
+
+.user_level {
+    border-radius: 16px;
+    color: white;
+    position: absolute;
+    height: 38px;
+    width: 202px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc(100% - 20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.user_level_premium {
+    background: linear-gradient(83.47deg, #ffcb08 9.02%, #ff9600 90.81%);
+}
+
+.user_level_free {
+    background: linear-gradient(83.47deg, #58cc02 9.02%, #23ac38 90.81%);
+}
+
+@media only screen and (max-width: 1440px) {
+    .user__container {
+        width: 70%;
+    }
+    .user__information {
+        margin-bottom: 0;
+        margin-top: 35px;
+        width: 90%;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .user__information {
+        margin-bottom: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .user__container {
+        width: 90%;
+    }
+
+    .user__avt img {
+        width: 100px;
+    }
+
+    .user_level {
+        width: 140px;
+    }
+
+    .user__account {
+        padding-left: 35px;
+        margin-top: 30px;
+        margin-top: 50px;
+    }
+    .user__open__website {
+        padding-top: 10px;
+    }
+
+    .open__web__btn {
+        padding: 6px 0;
+        display: none;
+    }
+
+    .open__web__title p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .user__logout {
+        margin-top: 55%;
+        bottom: 10px;
+
+        img {
+            display: none;
+        }
+    }
+
+    .btn__logout {
+        padding-top: 0;
+    }
+
+    .user__account__name p {
+        font-size: 20px;
+    }
+    .user__account {
+        padding-left: 30px;
+    }
+    .user__account__email:nth-child(2) {
+        padding: 0 15px;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .user__container {
+        width: 100%;
+    }
+    .user__information {
+        flex-direction: column;
+        text-align: center;
+        margin: 10% auto;
+    }
+    .user__account {
+        margin-top: 45px;
+        padding-left: 0;
+
+        .user__account__name {
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .user__avt img {
+        width: 168px;
+    }
+
+    .user_level {
+        width: 202px;
+    }
+    .user__open__website {
+        display: none;
+    }
+    .user__account__email:nth-child(2) {
+        padding: 0 15px;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .btn__logout {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 35px;
+    }
+
+    .user__account__email img {
+        display: none;
+    }
+}

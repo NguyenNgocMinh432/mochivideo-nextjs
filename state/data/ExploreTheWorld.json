@@ -1,0 +1,56 @@
+[
+    {
+        "id": "kham-pha-the-gioi",
+        "title": "Khám phá thế giới",
+        "data": [
+            {
+                "source": "EqJcNnijmdQ",
+                "title": "Đất nước nào đáng sống nhất thế giới?",
+                "description": "Khám phá những thiếu sót của việc sử dụng GDP để đo lường mức độ hạnh phúc của một quốc gia và những lựa chọn thay thế nào có thể được sử dụng để đánh giá chất lượng cuộc sống.",
+                "time": "4:01",
+                "level": 1,
+                "sub": "EqJcNnijmdQ.xml"
+            },
+            {
+                "source": "XyKUfXF-O-w",
+                "title": "Loài thực vật làm cho máy bay cất cánh được",
+                "description": "Loài thực vật làm cho máy bay cất cánh được",
+                "time": "4:24",
+                "level": 2,
+                "sub": "XyKUfXF-O-w.xml"
+            },
+            {
+                "source": "SPzWOGRCotg",
+                "title": "Những thời điểm đẹp để tham quan Disney World",
+                "description": "Có rất nhiều thứ có thể làm ở Walt Disney World, nhưng vấn đề là, khi nào bạn nên tham quan?",
+                "time": "5:21",
+                "level": 2,
+                "sub": "SPzWOGRCotg.xml"
+            },
+            {
+                "source": "WIp-QvvbsEw",
+                "title": "Chúng ta có thể bán trái đất với bao tiền?",
+                "description": "Nếu người ngoài hành tinh đến Trái đất và đề nghị mua nó, chúng ta nên bán nó với giá bao nhiêu?",
+                "time": "3:46",
+                "level": 2,
+                "sub": "WIp-QvvbsEw.xml"
+            },
+            {
+                "source": "jdMNoQE3mIQ",
+                "title": "Tôi sống sót qua một vụ rơi máy bay?!",
+                "description": "Tôi sống sót qua một vụ rơi máy bay?!",
+                "time": "8:13",
+                "level": 3,
+                "sub": "jdMNoQE3mIQ.xml"
+            },
+            {
+                "source": "fQSYGhKLCXA",
+                "title": "Một đô la đi khắp thế giới",
+                "description": "Bạn có thể mua gì với 1 đô la trên thế giới?",
+                "time": "6:03",
+                "level": 3,
+                "sub": "fQSYGhKLCXA.xml"
+            }
+        ]
+    }
+]

@@ -1,0 +1,130 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #202124;
+	color: #fff;
+}
+
+ul,
+li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		color-scheme: dark;
+	}
+	body {
+		background: #202124;
+	}
+}
+.slick-arrow.slick-prev {
+	right: 66px !important;
+	top: -63px !important;
+	left: unset !important;
+	width: 41px;
+	height: 43px;
+	transform: translate(0);
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 41px;
+		height: 43px;
+		background-image: url('https://mochidemy.com/images/arrow-left.svg');
+		background-repeat: no-repeat;
+		opacity: 1;
+	}
+
+	&:hover {
+		&::before {
+			background-image: url('https://mochidemy.com/images/arrow-left-hover.svg');
+		}
+	}
+}
+
+.slick-arrow.slick-next {
+	right: 10px !important;
+	top: -63px !important;
+	width: 41px;
+	height: 43px;
+	transform: translate(0);
+
+	&::before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		content: '';
+		width: 41px;
+		height: 43px;
+		background-image: url('https://mochidemy.com/images/right-arrows.svg');
+		background-repeat: no-repeat;
+		opacity: 1;
+	}
+
+	&:hover {
+		&::before {
+			background-image: url('https://mochidemy.com/images/right-arrows-hover.svg');
+		}
+	}
+}
+.card__times__right {
+	font-size: 13px;
+	cursor: pointer;
+	button {
+		border: none;
+		padding: 4px 8px;
+		border-radius: 8.85632px;
+	}
+	&__leve1 {
+		background-color: #23ac38;
+		color: #fff;
+	}
+	&__leve2 {
+		background-color: #ffcb08;
+	}
+	&__leve3 {
+		background-color: #eb5757;
+		color: #fff;
+	}
+}
+#subs__id::-webkit-scrollbar {
+	width: 6px;
+	background-color: transparent;
+}
+#subs__id::-webkit-scrollbar-thumb {
+	background-color: #e0e0e0;
+	border-radius: 5px;
+}
+#subs__id::-webkit-scrollbar-thumb {
+	border-right: none;
+	border-left: none;
+}
+#subs__id::-webkit-scrollbar-track-piece:end {
+	background: transparent;
+	margin-bottom: 10px;
+}
+#subs__id::-webkit-scrollbar-track-piece:start {
+	background: transparent;
+	margin-top: 10px;
+}
+#subs__id::-webkit-scrollbar-track {
+}

@@ -1,0 +1,48 @@
+[
+    {
+        "id": "khoa-hoc-cong-nghe",
+        "title": "Khoa học công nghệ",
+        "data": [
+            {
+                "source": "1V0GqFdQ0Eg",
+                "title": "Khủng hoảng năng lượng toàn cầu",
+                "description": "Một cuộc khủng hoảng năng lượng đang đe dọa tất cả chúng ta",
+                "time": "2:01",
+                "level": 1,
+                "sub": "1V0GqFdQ0Eg.xml"
+            },
+            {
+                "source": "T8ws0DwD1cQ",
+                "title": "25 sự thật kỳ lạ trong khoa học",
+                "description": "25 sự thật kỳ lạ trong khoa học",
+                "time": "8:27",
+                "level": 2,
+                "sub": "T8ws0DwD1cQ.xml"
+            },
+            {
+                "source": "Y6e_m9iq-4Q",
+                "title": "[TED-Ed] Những thứ lơ lửng trong mắt bạn là gì?",
+                "description": "Khám phá khoa học về hiện tượng “vật nổi”, những đốm màu nhỏ bơi qua tầm nhìn của bạn",
+                "time": "4:04",
+                "level": 2,
+                "sub": "Y6e_m9iq-4Q.xml"
+            },
+            {
+                "source": "LxgMdjyw8uw",
+                "title": "Chúng ta có thể 'chữa' được Biến đổi Khí hậu!",
+                "description": "Biến đổi khí hậu đang nhanh chóng làm thế giới của chúng ta hỗn loạn. Liệu loài người có thể làm gì?",
+                "time": "16:10",
+                "level": 3,
+                "sub": "LxgMdjyw8uw.xml"
+            },
+            {
+                "source": "Aw71zanwMnY",
+                "title": "Sức mạnh khoa học của việc tập thiền",
+                "description": "Chính xác thì thiền sẽ ảnh hưởng tới cơ thể bạn ra sao?",
+                "time": "2:59",
+                "level": 3,
+                "sub": "Aw71zanwMnY.xml"
+            }
+        ]
+    }
+]

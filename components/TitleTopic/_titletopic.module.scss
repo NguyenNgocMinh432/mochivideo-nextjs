@@ -1,0 +1,211 @@
+.suggest__mochi {
+	&__top {
+		margin: 2% 0;
+		display: flex;
+		align-items: center;
+		img {
+			width: 36px;
+			height: 36px;
+			margin-right: 1%;
+		}
+	}
+}
+.suggest__title {
+	font-size: 19px;
+	padding: 20px 0 20px 20px;
+	margin-bottom: 0px;
+	font-weight: 700;
+	color: #eb5757;
+}
+
+.mochi__videos--times {
+	width: 93%;
+	border-top: 2px solid #e0e0e0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 8px auto;
+	padding: 15px 0 10px 0;
+}
+.card__times--left {
+	display: flex;
+	align-items: center;
+	span {
+		font-size: 13px;
+		color: #fff;
+		font-weight: 600;
+		margin-left: 15%;
+	}
+}
+.card__times--right {
+	font-size: 13px;
+	cursor: pointer;
+	button {
+		border: none;
+		padding: 4px 8px;
+		border-radius: 8.85632px;
+	}
+	&--leve1 {
+		background-color: #23ac38;
+		color: #fff;
+	}
+	&--leve2 {
+		background-color: #ffcb08;
+	}
+	&--leve3 {
+		background-color: #eb5757;
+		color: #fff;
+	}
+}
+.mochi__list--suggest {
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.mochi__videos--card {
+	width: 95% !important;
+	margin-left: 2%;
+	min-height: 40%;
+	max-height: 40%;
+	background-color: #fff;
+	border-radius: 10px;
+	// box-shadow: 3px 4px rgb(240, 237, 237);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	box-sizing: border-box;
+	cursor: pointer;
+	background-color: #2a2a2c;
+	&__title {
+		padding: 20px 5px 10px;
+		width: 95%;
+		min-height: 88px;
+		max-height: 15%;
+		margin: 0 auto;
+		color: #ffffff;
+		p {
+			font-weight: 600;
+			font-size: 16px;
+			display: block;
+			display: -webkit-box;
+			-webkit-line-clamp: 2; /* số dòng hiển thị */
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+	img {
+		width: 100%;
+		height: auto;
+		border-radius: 10px;
+	}
+}
+.mochi__videos--card > img {
+	min-height: 140px;
+}
+
+.mochi__videos--card:hover {
+	box-shadow: 0 4px 10px 0 rgba(255, 255, 255, 0.9);
+}
+
+.lazyload-wrapper {
+	img {
+		border-radius: 10px 10px 0px 0px;
+	}
+}
+
+.slick-arrow.slick-prev {
+	right: 66px !important;
+	top: -38px !important;
+	left: unset !important;
+	width: 41px;
+	height: 43px;
+	transform: translate(0);
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 41px;
+		height: 43px;
+		background-image: url('https://mochidemy.com/images/arrow-left.svg');
+		background-repeat: no-repeat;
+		opacity: 1;
+	}
+
+	&:hover {
+		&::before {
+			background-image: url('https://mochidemy.com/images/arrow-left-hover.svg');
+		}
+	}
+}
+
+.slick-arrow.slick-next {
+	right: 10px !important;
+	top: -38px !important;
+	width: 41px;
+	height: 43px;
+	transform: translate(0);
+
+	&::before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		content: '';
+		width: 41px;
+		height: 43px;
+		background-image: url('https://mochidemy.com/images/right-arrows.svg');
+		background-repeat: no-repeat;
+		opacity: 1;
+	}
+
+	&:hover {
+		&::before {
+			background-image: url('https://mochidemy.com/images/right-arrows-hover.svg');
+		}
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.mochi__list--suggest {
+		flex-wrap: wrap;
+	}
+	.mochi__videos {
+		&--card {
+			width: 48%;
+			margin-top: 5%;
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	.suggest__mochi {
+		&--top {
+			padding: 2% 1%;
+		}
+	}
+	.suggest__title {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.slick-arrow.slick-next {
+		top: -26px !important;
+	}
+
+	.slick-arrow.slick-prev {
+		top: -26px !important;
+	}
+}
+.suggest__title__topic {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+.suggest__topic__image {
+	width: 36px !important;
+	height: 36px !important;
+	object-fit: contain;
+}

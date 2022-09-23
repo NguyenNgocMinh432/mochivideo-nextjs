@@ -1,0 +1,226 @@
+.mochi__header {
+	background-color: #2a2a2c !important;
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 54px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+	&__left {
+		cursor: pointer;
+	}
+	&__center {
+		width: 84%;
+		margin: 0 auto;
+		height: 100%;
+		cursor: pointer;
+	}
+	&__right {
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		color: #f8ad3e;
+		position: absolute;
+		top: 5%;
+		right: 8%;
+		&__userInfor {
+			display: flex;
+			align-items: center;
+			span {
+				font-family: 'Quicksand';
+				font-style: normal;
+				font-weight: 700;
+				font-size: 24px;
+			}
+		}
+		&__image {
+			margin-left: 5px;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+		}
+	}
+	&__ul {
+		padding: 0px;
+		margin: 0px;
+		width: 100%;
+		height: 100%;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		list-style-type: none;
+		li {
+			font-size: 15px;
+			// width: 25%;
+			// text-align: center;
+			color: #828282;
+			font-weight: 500;
+
+			&:nth-child(2) {
+				text-align: right;
+				position: relative;
+				img {
+					// position: absolute;
+					// width: 20px;
+					// height: 20px;
+					// right: 10px;
+					// top: 6px;
+				}
+			}
+			&:hover {
+				color: black;
+				font-weight: 700;
+			}
+		}
+	}
+	&__language {
+		margin-left: 15%;
+		justify-content: space-between;
+		display: flex;
+		align-items: center;
+		font-weight: 700;
+		font-size: 15px;
+
+		img {
+			margin-left: 10%;
+			width: 30px;
+			height: 29px;
+		}
+	}
+	&__search {
+		width: 90%;
+		height: 30px;
+		border-radius: 100px;
+		background: #ffffff;
+		padding: 0px 0px 0px 12px;
+		border: 1px solid #e0e0e0;
+
+		&::placeholder {
+			font-size: 12px;
+		}
+	}
+	&__active {
+		// padding:20.5px;
+		// background-color: #FFCB08;
+	}
+}
+.button__login {
+	min-width: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	padding: 6px 16px;
+	border-radius: 100px;
+	max-width: unset;
+	color: #ffffff;
+	background: linear-gradient(83.47deg, #58cc02 9.02%, #23ac38 90.81%);
+	box-shadow: 0px 4px 0px #209b32;
+	white-space: nowrap;
+}
+.menu__scroll {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	z-index: 10000;
+}
+.navLink:hover {
+	color: black !important;
+}
+.mochi__logo {
+	display: block;
+	width: 184px;
+	height: 34px;
+	margin-bottom: 11px;
+}
+.button__login {
+	font-size: 15px;
+	color: #ffffff;
+	padding: 6px 16px;
+	background: linear-gradient(83.47deg, #58cc02 9.02%, #23ac38 90.81%);
+	box-shadow: 0px 4px 0px #209b32;
+	border-radius: 100px;
+	white-space: nowrap;
+}
+.button__login__shadow {
+}
+
+@media only screen and (max-width: 1024px) {
+	.mochi__header {
+		&__ul {
+			li {
+				font-size: 13px;
+			}
+		}
+		&__search {
+			&::placeholder {
+				font-size: 10px;
+			}
+		}
+		&__left {
+			img {
+				width: 130px;
+			}
+		}
+		&__language {
+			font-size: 13px;
+		}
+		&__right {
+			font-size: 13px;
+		}
+	}
+    .mochi__logo {
+        margin-bottom: 6px;
+    }
+	.button__login {
+		font-size: 13px;
+		padding: 6px 7px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.mochi__header {
+		width: 96%;
+		height: 43px;
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+
+	.mochi__header__ul {
+		justify-content: space-between;
+	}
+
+	.mochi_login__button {
+		position: unset;
+	}
+	.button__login {
+		min-width: 90px;
+		padding: 4px 7px;
+	}
+	.mochi__header__center {
+		width: 100%;
+		height: 100%;
+		padding-left: 5px;
+		padding-right: 5px;
+		cursor: pointer;
+	}
+	.mochi__header__right {
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		color: #f8ad3e;
+		position: absolute;
+		top: 5%;
+		right: 3%;
+	}
+
+	.mochi__header__right__userInfor span {
+		display: none;
+	}
+}

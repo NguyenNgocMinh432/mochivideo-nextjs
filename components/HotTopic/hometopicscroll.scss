@@ -1,0 +1,34 @@
+.home_topic {
+	&_fixed {
+		position: sticky;
+		top: 54px;
+		left: 0;
+		width: 100%;
+		z-index: 9;
+		padding-top: 32px;
+		padding-bottom: 32px;
+		background-color: #202124;
+	}
+}
+
+.title_scroll_hide {
+	display: none;
+}
+
+@media screen and (max-width: 1023px) {
+	.home_topic_fixed {
+		width: 100%;
+		left: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.home_topic {
+		&_fixed {
+			top: 43px;
+			.home_topic_container {
+				width: 100%;
+			}
+		}
+	}
+}

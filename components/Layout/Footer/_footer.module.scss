@@ -1,0 +1,29 @@
+
+.footer_component{
+    padding: 50px 20px 20px 20px;
+    width: 100%;
+    background-color:#2A2A2C;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color:#ffffff;
+    &__content{
+          width: 81%;
+          margin: 0 auto;
+    }
+    p {
+          padding: 5px 0px 5px 0px;
+    }
+}
+@media only screen and (max-width:768px) {
+    .footer_component{
+          &--content{
+                width: 98%;
+                margin: 0 auto;
+          }
+    }
+    .footer_component{
+          font-size: 15px;
+    }
+}
