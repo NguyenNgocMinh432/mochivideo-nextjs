@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import rewindLeft from '../../assets/images/RewindRight.png';
+import rewindLeft from '../../assets/images/rewindRight.png';
 import rewindStyles from './_controlVideo.module.scss';
 
 const ControlRewindLeft = () => {
